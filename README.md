@@ -25,4 +25,5 @@ This repository contains the projects carried out during my masters degree, cate
 
 -- SQL: A series of SQL queries that were written to extract data for a Luxury_Cruise company and answer some pre-defined questions.
 
+-- Python: A series of Python codes that a) provide solutions for the first 10 Euler problems and b) Caryy out EDA on the Titanic Dataset. 
 
