@@ -11,7 +11,11 @@ This repository contains the projects carried out during my masters degree, cate
 
 5) Hadoop: Two files. The first one (Hive QL) are queries written on Hive to extract and analyze data from tweets (using Twitter API). The second was a report on how Map reduce could be used to extract twitter data. 
 
-6) Machine Learning. Contains three sections:
+6) Kaggle: Python codes for Kaggle Competitions.
+
+-- House Prices: Advanced Regression Techniques competition. Final score of 0.13510. 
+
+7) Machine Learning. Contains three sections:
 
 -- Clustering: A report on a clustering project carried out in Dataiku.  
 
@@ -19,7 +23,7 @@ This repository contains the projects carried out during my masters degree, cate
 
 -- Linear Regression: A report on a regression project carried out in Dataiku. 
 
-7) Programming: Contains 2 sections:
+8) Programming: Contains 2 sections:
 
 -- R: A series of R codes that were used to a) predict solar production (Kaggle Dataset) and b) Create an R-Markdown and Shiny. 
 
