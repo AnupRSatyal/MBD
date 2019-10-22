@@ -1,21 +1,23 @@
 # MBD
 This repository contains the projects carried out during my masters degree, categorized by type of project. They are:
 
-1) Chatbot : Using IBM Watson, we developed a chatbot around a Children's Education company in Colombia. The folder contains the presentation (JSON file available upon request)
+Blog: Python codes for analysis carried out for blog posts on LinkedIn and Medium 
 
-2) Data Visualiation: Contains a Tableau dashboard created after database creation in MySQL and ETL done using Pentaho.
+Chatbot : Using IBM Watson, we developed a chatbot around a Children's Education company in Colombia. The folder contains the presentation (JSON file available upon request)
 
-3) Database Creation: Two models (star-schema). The first one (Luxury_Cruise) was a model designed for a luxury cruise company and the second (Social Media) a model designed to analyse a social media marketing program (used in ETL and Data Visualization)
+Data Visualiation: Contains a Tableau dashboard created after database creation in MySQL and ETL done using Pentaho.
 
-4) ETL: Contains Pentaho files and the ETL flow for the social media marketing program. 
+Database Creation: Two models (star-schema). The first one (Luxury_Cruise) was a model designed for a luxury cruise company and the second (Social Media) a model designed to analyse a social media marketing program (used in ETL and Data Visualization)
 
-5) Hadoop: Two files. The first one (Hive QL) are queries written on Hive to extract and analyze data from tweets (using Twitter API). The second was a report on how Map reduce could be used to extract twitter data. 
+ETL: Contains Pentaho files and the ETL flow for the social media marketing program. 
 
-6) Kaggle: Python codes for Kaggle Competitions.
+Hadoop: Two files. The first one (Hive QL) are queries written on Hive to extract and analyze data from tweets (using Twitter API). The second was a report on how Map reduce could be used to extract twitter data. 
+
+Kaggle: Python codes for Kaggle Competitions.
 
 -- House Prices: Advanced Regression Techniques competition. Final score of 0.13510. 
 
-7) Machine Learning. Contains three sections:
+Machine Learning. Contains three sections:
 
 -- Clustering: A report on a clustering project carried out in Dataiku.  
 
@@ -23,7 +25,7 @@ This repository contains the projects carried out during my masters degree, cate
 
 -- Linear Regression: A report on a regression project carried out in Dataiku. 
 
-8) Programming: Contains 2 sections:
+Programming: Contains 2 sections:
 
 -- R: A series of R codes that were used to a) predict solar production (Kaggle Dataset) and b) Create an R-Markdown and Shiny. 
 
