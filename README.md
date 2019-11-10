@@ -5,7 +5,7 @@ Blog: Python codes for analysis carried out for blog posts on LinkedIn and Mediu
 
 Chatbot : Using IBM Watson, we developed a chatbot around a Children's Education company in Colombia. The folder contains the presentation (JSON file available upon request)
 
-Data Visualiation: Contains a Tableau dashboard created after database creation in MySQL and ETL done using Pentaho.
+Data Visualiation: Contains a) a Tableau dashboard created after database creation in MySQL and ETL done using Pentaho and b) A pyton script that was used to visualize real world data on the beer market in Spain (6m+ rows and 39 columns). 
 
 Database Creation: Two models (star-schema). The first one (Luxury_Cruise) was a model designed for a luxury cruise company and the second (Social Media) a model designed to analyse a social media marketing program (used in ETL and Data Visualization)
 
@@ -13,9 +13,10 @@ ETL: Contains Pentaho files and the ETL flow for the social media marketing prog
 
 Hadoop: Two files. The first one (Hive QL) are queries written on Hive to extract and analyze data from tweets (using Twitter API). The second was a report on how Map reduce could be used to extract twitter data. 
 
-Kaggle: Python codes for Kaggle Competitions.
+Kaggle: Python codes for Kaggle and other Data Science Competitions.
 
--- House Prices: Advanced Regression Techniques competition. Final score of 0.13510. 
+- House Prices: Advanced Regression Techniques competition. Final score of 0.13510.
+- Pump it Pump: Advanced Modelling (Random Forest) for the Pump it up challenge on Driven Data. Final score of 0.79.
 
 Machine Learning. Contains three sections:
 
