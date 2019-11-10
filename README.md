@@ -13,10 +13,10 @@ ETL: Contains Pentaho files and the ETL flow for the social media marketing prog
 
 Hadoop: Two files. The first one (Hive QL) are queries written on Hive to extract and analyze data from tweets (using Twitter API). The second was a report on how Map reduce could be used to extract twitter data. 
 
-Kaggle: Python codes for Kaggle Competitions.
+Kaggle: Python codes for Kaggle and other Data Science Competitions.
 
--- House Prices: Advanced Regression Techniques competition. Final score of 0.13510.
--- 
+- House Prices: Advanced Regression Techniques competition. Final score of 0.13510.
+- Pump it Pump: Advanced Modelling (Random Forest) for the Pump it up challenge on Driven Data. Final score of 0.79.
 
 Machine Learning. Contains three sections:
 
