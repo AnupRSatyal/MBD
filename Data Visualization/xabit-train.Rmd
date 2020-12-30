@@ -1,0 +1,69 @@
+---
+title: "Untitled"
+author: "Smriti karki"
+date: "12/25/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+library(haven)
+library(readr)
+library(esquisse)
+library(ggplot2)
+library(plotly)
+library(lubridate)
+```
+##The scatterplot depicts the relationship between temperature and humidity.
+
+```{r}
+train <- read_csv("C:/Users/Dell/Downloads/train.csv")
+temp<- ggplot(train) +
+ aes(x = temp, y = humidity, colour = season) +
+ geom_point(size = 1L) +
+ scale_color_gradient() +
+ labs(x = "Temperature (in celsius)", y = "Humidity", title = "fluctuation of humidity according to temperature in different seasons") +
+ theme_minimal() +
+ facet_wrap(vars(season))
+ggplotly(temp)
+```
+
+##The scatterplot depicts the relationship between temperature and windspeed.
+
+
+```{r}
+windspeed<- ggplot(train) +
+ aes(x = temp, y = windspeed, colour = weather) +
+ geom_point(size = 1L) +
+ scale_color_gradient() +
+ labs(x = "Temperature (in celsius)", y = "windspeed", title = "graph between temperature and wind speed in different weather") +
+ theme_minimal() +
+ facet_wrap(vars(weather))
+ggplotly(windspeed)
+
+```
+#Distribution of casual(number of non-registered user rentals initiated)
+```{r}
+casual <- ggplot(train) +
+ aes(x = casual) +
+ geom_histogram(bins = 30, fill = "orange") +
+ labs(x = "casual (no. of non-registerd users)") +
+ theme_linedraw()
+ggplotly(casual)
+
+
+```
+#Distribution of registered(number of registered user rentals initiated)
+
+```{r}
+registered <- ggplot(train) +
+ aes(x = registered) +
+ geom_histogram(bins = 30, fill = "dark green") +
+ labs(x = "no. of registerd users") +
+ theme_linedraw()
+ggplotly(registered)
+```
+
+
